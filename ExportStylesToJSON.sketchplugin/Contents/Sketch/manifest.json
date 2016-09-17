@@ -1,0 +1,25 @@
+{
+    "name" : "Export Styles to JSON",
+    "identifier" : "com.marianomike.exportstyles",
+    "version" : "1.0",
+    "description" : "Exports Shared and Text Styles to JSON",
+    "authorEmail" : "mike@uiuxartist.com",
+    "author" : "Mike Mariano",
+
+    "commands" : [
+    {
+      "script" : "ExportSharedStyles.js",
+      "handler" : "onRun",
+      "shortcut" : "command ctrl shift 1",
+      "name" : "Export Shared Styles",
+      "identifier" : "com.marianomike.exportstyles.shared"
+    },
+    {
+      "script" : "ExportTextStyles.js",
+      "handler" : "onRun",
+      "shortcut" : "command ctrl shift 2",
+      "name" : "Export Text Styles",
+      "identifier" : "com.marianomike.exportstyles.text"
+    }
+  ],
+}

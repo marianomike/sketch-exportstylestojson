@@ -6,7 +6,7 @@ Export Styles Plugin For Sketch
 Exports Shared or Text Styles to JSON for easy sharing with Developers.
 
 
-## Work in Progress
+## This is very Work in Progress
 
 Only exporting Shared Styles works
 
